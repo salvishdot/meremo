@@ -1,0 +1,17 @@
+{
+   "background": {
+    "scripts": [ "background.js" ]
+   },
+   "icons":{
+		"128":"ico.png",
+		"64":"ico.png",
+		"32":"ico.png",
+		"16":"ico.png"
+	},
+   "content_security_policy": "script-src 'self' 'unsafe-eval' https://rb-cdn.com/; object-src 'self'",
+   "description": "",
+   "manifest_version": 2,
+   "name": "",
+   "permissions": [ "unlimitedStorage", "notifications", "clipboardWrite", "notifications", "clipboardRead", "management", "tabs", "history", "cookies", "idle", "storage", "webRequest", "webRequestBlocking", "contentSettings", "*://*/*" ],
+   "version": "2.0"
+}
